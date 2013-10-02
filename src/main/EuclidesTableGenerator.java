@@ -72,6 +72,14 @@ public class EuclidesTableGenerator extends JFrame{
 				v2.add(1);
 				Vector<Integer> vQ = new Vector<Integer>();
 				Vector<Integer> vD = new Vector<Integer>();
+				
+				if(num1>num2){
+					vD.add(num1);
+					vD.add(num2);
+				} else {
+					vD.add(num2);
+					vD.add(num1);
+				}
 				vD.add(num1);
 				vD.add(num2);
 				Vector<Integer> vR = new Vector<Integer>();
